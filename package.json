@@ -1,0 +1,22 @@
+{
+  "name": "new-portfolio-vinay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start" : "node api/index.js",
+    "dev" : "nodemon api/index.js",
+    "export": "react-scripts build",
+     "build" : "npm install && npm install --prefix client && npm run build --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2",
+    "nodemon": "^3.1.4"
+  }
+}
